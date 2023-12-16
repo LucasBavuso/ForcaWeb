@@ -338,3 +338,12 @@ function adicionar(){
     addtelinha.style.display = "none" 
     mudarTela()
 }
+function mudartipo(){
+    let check = document.getElementById("mudarinput")
+    if(check.checked == true){
+        document.getElementById("addpalavra").type = "text"
+    }
+    else{
+        document.getElementById("addpalavra").type = "password"
+    }
+}
