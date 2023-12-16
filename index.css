@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    background-color: rgba(123, 212, 66, 0.9);
+}
+
+#posicao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 700px;
+}
+
+.teclas button {
+    width: 41px;
+    height: 30px;
+    margin: 2px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 8px dimgray;
+    border-radius: 3px;
+    border: 2px solid #041122;
+    color: #041122;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+}
+#mais{
+    position: fixed;
+    right: 30%;
+    top: 70.7%;
+    
+}
+#imgmais{
+    position: fixed;
+    right: 1%;
+    top: 40%;
+    width: 41px;
+    height: 30px;
+    margin: 2px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 8px dimgray;
+    border-radius: 3px;
+    border: 2px solid #041122;
+    color: #041122;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+}
+#reset{
+    position: fixed;
+    right: 1%;
+    top: 46%;
+    width: 41px;
+    height: 30px;
+    margin: 2px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 8px dimgray;
+    border-radius: 3px;
+    border: 2px solid #041122;
+    color: #041122;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+}
+#teclado {
+    margin-top: 10px;
+}
+
+#palavra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.letras {
+    font-size: 40px;
+    width: 40px;
+    padding: 5x;
+    border-bottom: 3px solid #041122;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+}
+
+.espacovazio {
+    font-size: 80px;
+    width: 20px;
+    padding: 2px;
+    color: #041122;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.positionmodal{
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: 22%;
+    width: 400px;
+    height: 200px;
+    background-color: #ace420;
+    border: 4px solid;
+    border-color: #041122;
+}
+.iniciofim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid;
+    border-color: #041122;
+    height: 30px;
+    text-align: center;
+}
+.stylemodal{
+    height: 60%;
+}
+#nao{
+    position: absolute;
+    top: 83%;
+    left: 3%;
+    margin-left: 20px;
+    height: 30px;
+    width: 60px;
+    border: 2px solid #e6f99d;
+    background-color: #041122;
+    color: #e6f99d;
+    font-size: 20px;
+}
+#sim{
+    position: absolute;
+    top: 83%;
+    right: 3%;
+    margin-right: 20px;
+    height: 30px;
+    width: 60px;
+    border: 2px solid #e6f99d;
+    background-color: #041122;
+    color: #e6f99d;
+    font-size: 20px;
+}
+input{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 380px;
+    height: 25px;
+}
+#confirmar{
+    position: absolute;
+    left: 1%;
+    text-align: center;
+    top: 150px;
+    right: 36.05%;
+    margin-right: 20px;
+    height: 40px;
+    width: 390px;
+    border: 2px solid #e6f99d;
+    background-color: #041122;
+    color: #e6f99d;
+    font-size: 20px;
+}
